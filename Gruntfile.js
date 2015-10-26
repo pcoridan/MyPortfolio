@@ -24,7 +24,7 @@ module.exports = function(grunt) {
       },
       build: {
         files: {
-          'dist/js/magic.min.js': 'src/js/magic.js'
+          './dist/js/main.min.js': './js/main.js'
         }
       }
     },
@@ -53,11 +53,11 @@ module.exports = function(grunt) {
     // configure watch to auto update ------------------------------------------
     watch: {
       stylesheets: {
-        files: ['src/**/*.css', 'src/**/*.less'],
+        files: ['./css/*.css', './css/*.less'],
         tasks: ['less', 'cssmin']
       },
       scripts: {
-        files: 'src/**/*.js',
+        files: './js/*.js',
         tasks: ['jshint', 'uglify']
       }
     }
