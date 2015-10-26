@@ -258,6 +258,7 @@ textarea {
 
     img {
         max-width: 100% !important;
+        width:100%;
     }
 
     p,
@@ -292,7 +293,7 @@ p {
     padding: 8em 0;
 }
 h3 {
-    font-size: 2.5em;
+    font-size: 2.75em;
 }
 @media screen and (max-width: 700px) {
     .section {
@@ -370,6 +371,24 @@ h3 {
             PROJECT STYLES 
 ***************************************/
 
+#projs {
+  width: 100%;
+  margin: 0;
+  padding: 40px;
+  list-style: none;
+}
+
+#projs li{
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #E9E9DD;
+}
+
+#projs li a p{
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 1.25em;
+}
 
 /***************************************
             CONTACT STYLES 
